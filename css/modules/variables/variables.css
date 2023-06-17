@@ -1,0 +1,24 @@
+:root {
+    scroll-behavior: smooth;
+    --primary-max-width: 570;
+    --primary-main-color: #131010;
+    --primary-border-radius: 1rem;
+    --primary-background-color: #79E0EE;
+    --primary-text-color: #101110;
+    --primary-hover-color: #227544;
+    --secondary-text-color: #f49912;
+    --primary-span-color: #df0c0c;
+    --background-transparent: #0000002a;
+    --primary-shadow-color: #d6d615;
+    --primary-spacing: 2rem;
+    --primary-font-weight: 700;
+    --primary-font-weight-secondary: 900;
+    --primary-font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+@media (min-width: 700px){
+    :root {
+        --primary-max-width: 1024px;
+        --primary-spacing: 2rem;
+    }
+}

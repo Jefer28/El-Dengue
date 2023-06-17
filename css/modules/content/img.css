@@ -1,0 +1,20 @@
+.img {
+    display: block;
+}
+
+.img--logo {
+    width: 48px;
+    height: 48px;
+}
+
+.img--hero {
+    width: 328px;
+    height: 328px;
+    border-radius: 1rem;
+}
+
+.img--section {
+    width: 250px;
+    height: 250px;
+    border-radius: 0.6rem;
+}

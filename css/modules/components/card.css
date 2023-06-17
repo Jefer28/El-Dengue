@@ -1,0 +1,46 @@
+.container__card {
+    max-width: 512px;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+.card__text {
+    color: var(--primary-main-color);
+    font-weight: var(--primary-font-weight);
+}
+
+.color-primary {
+    color: var(--primary-span-color);
+}
+
+.title-center {
+    text-align: center;
+}
+
+.text-center {
+    align-items: center;
+    color: #045353;
+}
+
+.card__title--secondary {
+    color: #f9802a;
+}
+
+.section__card {
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card--blur {
+    background: #ffffff3b;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(14.1px);
+    -webkit-backdrop-filter: blur(14.1px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+}

@@ -1,0 +1,13 @@
+.link {
+    padding: 0.4rem 0.9rem;
+    border-radius: var(--primary-border-radius);
+    text-decoration: none;
+    color: var(--primary-main-color);
+    font-weight: var(--primary-font-weight);
+    transition: 0.40s;
+}
+
+.link:hover {
+    background-color: #1979e0be;
+    color: rgb(0, 0, 0);
+}

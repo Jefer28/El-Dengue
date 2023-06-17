@@ -1,0 +1,29 @@
+.g-layout {
+    display: grid;
+}
+
+.g-layout--1-1 {
+    grid-template-columns: 1fr;
+}
+
+.g-layout--center {
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: px;
+    grid-row-gap: 7px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+
+@media (min-width: 700px) {
+    .g-layout--1-1 {
+        grid-template-columns: 1fr 1fr;
+    }
+}

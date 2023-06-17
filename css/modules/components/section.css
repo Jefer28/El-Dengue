@@ -1,0 +1,5 @@
+.section {
+    padding-top: var(--primary-spacing);
+    padding-bottom: var(--primary-spacing);
+    margin-top: 3rem;
+}
